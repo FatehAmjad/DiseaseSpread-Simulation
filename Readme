@@ -1,0 +1,23 @@
+# Author: Fateh Amjad 
+# Readme file for Disease Spread Simulation 
+# Date: 23rd November, 2021
+
+
+								----- Contents -----
+
+- The assignment only consists, and makes use of the simSpread.py file. The python file was edited to contain all the code to run the disease spread simulation program, wherein parameter sweeps can be used to produce simulation results automatically, or the code can be hardcoded manually to create variables in the python file for outputting results and scatterplots based on the values that have been created. 
+
+Once the file is called, it displays a grid (Map) which shows how the people are moving across the map which could be 
+in the direction of going up, down, left, right or even diagonally using the Moore and Von Neumann neighbourhoods. Furthermore, the behaviours "becameInfected", "notInfected", "Death" and "recovery" print the no.of people that have been infected, are not infected, those who have died from the disease and those who have recovered. 
+
+Lastly,the statistics of the simulation is shown to the user on the terminal, disclosing how many people have been infected, how many remained immune, how many died and how many had recovered.
+
+
+								----- Dependents -----
+
+The dependencies that have been used for this simulation are: 
+- import numpy as np - Used to perform mathematical functions in methods such as buildScatter()
+- import matplotlib.pyplot as plt - Used to output the grids and scatter values of the simulation after its run
+- import random - Generates random numbers between 0 and 1; used in movePeeps function when creating neighbourhoods
+- import sys - The sys module contains knowledge about constants, functions and methods of the Python interpreter.
+
